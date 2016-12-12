@@ -35,7 +35,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Configuration
-//@EnableBatchProcessing
 public class BatchConfiguration {
 
     @Autowired

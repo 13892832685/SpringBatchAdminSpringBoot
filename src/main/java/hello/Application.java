@@ -11,8 +11,6 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-//@Configuration
-//@SpringBootApplication
 @EnableAutoConfiguration(exclude = { BatchAutoConfiguration.class, DataSourceAutoConfiguration.class,
         WebMvcAutoConfiguration.class })
 @Import(MainConfiguration.class)
